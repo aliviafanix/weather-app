@@ -4,7 +4,7 @@ import { motion } from 'framer-motion'
 import { WiDaySunny, WiRain, WiCloudy, WiSnow, WiThunderstorm } from 'react-icons/wi'
 import { MagnifyingGlassIcon } from '@heroicons/react/24/outline'
 
-const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY
+const API_KEY = import.meta.env.VITE_OPENWEATHER_API_KEY || '4b945adf6a248bc416534f1601318157'
 const BASE_URL = 'https://api.openweathermap.org/data/2.5'
 
 const popularCities = [
